@@ -4,7 +4,7 @@
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/{{TEMPLATE_ID}}?referralCode={{REFERRAL_CODE}})
 
-> Railway アカウント（GitHub 連携で即作成）だけで OK。クレジットカード不要、月 $5 の無料枠で運用できます。
+> Railway アカウントだけで OK。フリートライアルですぐ試せます。
 
 ---
 
@@ -39,15 +39,15 @@
 ## ❓ よくある質問
 
 <details>
-<summary>無料で使えますか？</summary>
+<summary>料金はどのくらいかかりますか？</summary>
 
-はい。Railway の無料枠（月 $5 相当）で十分運用できます。個人利用であれば基本的に無料枠内に収まります。
+Memos は Go 製で非常に軽量なため、月の利用料は $1 以下に収まります。Railway は従量課金制で、使った分だけ請求されます。
 </details>
 
 <details>
 <summary>データはどこに保存されますか？</summary>
 
-Railway 上のあなた専用のコンテナ内に SQLite で保存されます。データは Railway のダッシュボードからいつでもエクスポート可能です。
+Railway 上のあなた専用のコンテナ内に SQLite で保存されます。Railway の Volume バックアップ機能でデータを保護でき、CLI 経由でエクスポートも可能です。
 </details>
 
 <details>
